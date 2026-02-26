@@ -1,0 +1,24 @@
+{
+  "name": "restaurant-roulette",
+  "version": "1.0.0",
+  "description": "Can't decide where to eat in downtown Phoenix? Let the roulette wheel decide for you.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wkubenka/Restaurant-Roulette.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/wkubenka/Restaurant-Roulette/issues"
+  },
+  "homepage": "https://github.com/wkubenka/Restaurant-Roulette#readme",
+  "dependencies": {
+    "puppeteer": "^24.37.5"
+  }
+}
