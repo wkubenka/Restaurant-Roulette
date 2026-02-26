@@ -9,6 +9,8 @@ echo "Uploading files to S3..."
 aws s3 sync . "s3://$BUCKET" \
   --exclude ".git/*" \
   --exclude ".claude/*" \
+  --exclude "README.md" \
+  --exclude ".gitignore" \
   --exclude "deploy.sh" \
   --profile="$PROFILE"
 
