@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Restaurant Roulette - Downtown Phoenix</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background: #1a1a2e;
+      color: #eee;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 2rem;
+    }
+
+    h1 {
+      font-size: 2.4rem;
+      margin-bottom: 0.25rem;
+      color: #e94560;
+    }
+
+    .subtitle {
+      font-size: 1rem;
+      color: #aaa;
+      margin-bottom: 2.5rem;
+    }
+
+    #result-card {
+      background: #16213e;
+      border: 2px solid #0f3460;
+      border-radius: 16px;
+      padding: 2.5rem 3rem;
+      text-align: center;
+      min-width: 340px;
+      max-width: 480px;
+      width: 100%;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    #result-card.reveal {
+      transform: scale(1.03);
+      box-shadow: 0 0 30px rgba(233, 69, 96, 0.3);
+    }
+
+    #restaurant-name {
+      font-size: 1.8rem;
+      font-weight: 700;
+      color: #fff;
+      margin-bottom: 0.5rem;
+      min-height: 2.2rem;
+    }
+
+    #restaurant-cuisine {
+      font-size: 1rem;
+      color: #e94560;
+      margin-bottom: 0.75rem;
+      min-height: 1.2rem;
+    }
+
+    #restaurant-address {
+      font-size: 0.9rem;
+      color: #999;
+      margin-bottom: 1rem;
+      min-height: 1.1rem;
+    }
+
+    #restaurant-description {
+      font-size: 0.95rem;
+      color: #ccc;
+      line-height: 1.5;
+      min-height: 1.5rem;
+    }
+
+    .placeholder-text {
+      color: #555;
+      font-style: italic;
+    }
+
+    #spin-btn {
+      margin-top: 2rem;
+      background: #e94560;
+      color: #fff;
+      border: none;
+      border-radius: 50px;
+      padding: 1rem 3rem;
+      font-size: 1.2rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: background 0.2s ease, transform 0.1s ease;
+    }
+
+    #spin-btn:hover {
+      background: #c73652;
+    }
+
+    #spin-btn:active {
+      transform: scale(0.97);
+    }
+
+    #spin-btn:disabled {
+      background: #555;
+      cursor: not-allowed;
+    }
+
+    #spin-btn.spinning {
+      animation: pulse 0.15s ease-in-out infinite alternate;
+    }
+
+    @keyframes pulse {
+      from { transform: scale(1); }
+      to { transform: scale(1.05); }
+    }
+
+    .restaurant-count {
+      margin-top: 1.5rem;
+      font-size: 0.85rem;
+      color: #555;
+    }
+
+    @media (max-width: 500px) {
+      h1 { font-size: 1.8rem; }
+      #result-card { padding: 1.5rem; min-width: auto; }
+      #restaurant-name { font-size: 1.4rem; }
+    }
+  </style>
+</head>
+<body>
+  <h1>Restaurant Roulette</h1>
+  <p class="subtitle">Downtown Phoenix Edition</p>
+
+  <div id="result-card">
+    <div id="restaurant-name" class="placeholder-text">Press the button to pick a spot!</div>
+    <div id="restaurant-cuisine"></div>
+    <div id="restaurant-address"></div>
+    <div id="restaurant-description"></div>
+  </div>
+
+  <button id="spin-btn">Pick a Restaurant</button>
+  <p class="restaurant-count"><span id="count"></span> restaurants in the pool</p>
+
+  <script src="restaurants.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
