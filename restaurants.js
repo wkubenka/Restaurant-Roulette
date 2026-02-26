@@ -694,7 +694,7 @@ const RESTAURANTS = [
   {
     name: "Little Rituals",
     cuisine: "Cocktail Bar",
-    address: "132 E Washington St, Phoenix, AZ 85004",
+    address: "132 S Central Ave, 4th Floor, Phoenix, AZ 85004",
     description: "Upscale cocktail bar with meticulously crafted drinks and a refined atmosphere."
   },
   {
@@ -718,7 +718,7 @@ const RESTAURANTS = [
   {
     name: "Cupbop",
     cuisine: "Asian / Korean",
-    address: "Phoenix, AZ 85004",
+    address: "101 E Washington St, Phoenix, AZ 85004",
     description: "Delicious Korean cuisine with flavorful, naturally healthy dishes in convenient bowl format."
   },
   {
@@ -730,13 +730,13 @@ const RESTAURANTS = [
   {
     name: "Turquoise Wine Bar",
     cuisine: "Wine Bar",
-    address: "Phoenix, AZ 85004",
+    address: "504 E Roosevelt St, Phoenix, AZ 85004",
     description: "Comfortable wine lounge and tasting room with a whimsical yet refined atmosphere."
   },
   {
     name: "Jobot Coffee",
     cuisine: "Cafe / Brunch",
-    address: "Phoenix, AZ 85004",
+    address: "333 E Roosevelt St, Phoenix, AZ 85004",
     description: "Beloved cafe offering sweet or savory crepes, waffles, avocado toast, plus coffee and tea."
   },
   {
@@ -760,7 +760,7 @@ const RESTAURANTS = [
   {
     name: "Lo-Lo's Chicken & Waffles",
     cuisine: "American / Soul Food",
-    address: "10 W South Mountain Ave, Phoenix, AZ 85041",
+    address: "1220 S Central Ave, Phoenix, AZ 85004",
     description: "Iconic comfort food from restaurateur Larry 'Lo-Lo' White with signature chicken and waffles."
   },
   {
@@ -780,5 +780,191 @@ const RESTAURANTS = [
     cuisine: "Wine Bar",
     address: "111 W Monroe St, Phoenix, AZ 85003",
     description: "Natural wine bar offering a curated selection of organic and biodynamic wines."
+  },
+  {
+    name: "The Compass @ Hyatt Regency",
+    cuisine: "American",
+    address: "122 N 2nd St, 24th Floor, Phoenix, AZ 85004",
+    description: "Arizona's only rooftop revolving restaurant with 360-degree views and seasonal American cuisine with southwest flavors."
+  },
+  {
+    name: "Jacy & Dakota's @ The Westin",
+    cuisine: "American",
+    address: "333 N Central Ave, Phoenix, AZ 85004",
+    description: "Regionally-inspired cuisine and handcrafted cocktails with ingredients sourced from local providers at The Westin."
+  },
+  {
+    name: "Tom's Watch Bar",
+    cuisine: "American / Sports Bar",
+    address: "3 S 2nd St, Suite 117, Phoenix, AZ 85004",
+    description: "Ultimate sports-watching experience steps from Chase Field and PHX Arena with fan-favorite bites."
+  },
+  {
+    name: "The Taco Spot",
+    cuisine: "Mexican / Tacos",
+    address: "20 W Adams St, Phoenix, AZ 85003",
+    description: "Known for their birria tacos and authentic Mexican street food."
+  },
+  {
+    name: "Tacos Calafia",
+    cuisine: "Mexican",
+    address: "825 N 7th St, Ste 102, Phoenix, AZ 85006",
+    description: "Dynamic, colorful eatery offering tacos, frijoles, and other Mexican dishes with beer and margaritas."
+  },
+  {
+    name: "Chilte",
+    cuisine: "Mexican",
+    address: "765 Grand Ave, Phoenix, AZ 85007",
+    description: "From a farmers market taco stand to a restaurant inside the Egyptian Motor Hotel with a unique take on traditional Mexican cuisine."
+  },
+  {
+    name: "Provecho",
+    cuisine: "Mexican",
+    address: "829 N 1st Ave, Ste A, Phoenix, AZ 85003",
+    description: "Mexican cuisine at The Churchill from the chef behind downtown taqueria El Centro Cocina Callejera."
+  },
+  {
+    name: "Que Sazon South American Cuisine & Ceviche Bar",
+    cuisine: "Latin / South American",
+    address: "622 E Adams St, Phoenix, AZ 85004",
+    description: "South American cuisine with flavors from Colombia, Brazil, Peru, and Argentina in tapas-style plates."
+  },
+  {
+    name: "Hugo's Cantina",
+    cuisine: "Latin / Mexican",
+    address: "817 N 1st St, Phoenix, AZ 85004",
+    description: "Ibiza-inspired cantina with shareable nachos, enchiladas, and tacos from the brothers behind Gadzooks."
+  },
+  {
+    name: "Zen Thai Cafe",
+    cuisine: "Asian / Thai",
+    address: "110 N Central Ave, Phoenix, AZ 85004",
+    description: "Thai cuisine with the freshest ingredients, exotic herbs, and spices from Thailand."
+  },
+  {
+    name: "Ricemill",
+    cuisine: "Asian / Fast-Casual",
+    address: "201 E Washington St, Suite 111, Phoenix, AZ 85004",
+    description: "Modern Asian-inspired rice bowl concept by Chef Yiyi Wang and restaurateur Harry Yu."
+  },
+  {
+    name: "Harumi Sushi & Sake",
+    cuisine: "Asian / Japanese",
+    address: "101 N 1st Ave, Phoenix, AZ 85003",
+    description: "Traditional Japanese cuisine with a modern twist, known for purple rice sushi rolls and fresh sashimi."
+  },
+  {
+    name: "Trapper's Sushi Co.",
+    cuisine: "Asian / Japanese",
+    address: "2 E Jefferson St, Phoenix, AZ 85004",
+    description: "Sushi restaurant at CityScape with fresh rolls and happy hour specials."
+  },
+  {
+    name: "The Duce",
+    cuisine: "Breakfast & Brunch / Bar",
+    address: "525 S Central Ave, Phoenix, AZ 85004",
+    description: "Family-owned gem described as a unique fusion of past and present with brunch and cocktails."
+  },
+  {
+    name: "La Madeleine French Bakery & Cafe",
+    cuisine: "French / Bakery",
+    address: "45 W Jefferson St, Phoenix, AZ 85003",
+    description: "French bakery and cafe in the historic Luhrs Tower with fresh-baked pastries and soups."
+  },
+  {
+    name: "Proof Bread",
+    cuisine: "Bakery",
+    address: "301 W Roosevelt St, Phoenix, AZ 85003",
+    description: "Local sourdough bakeshop with breakfast pastries and signature loaves on the ground floor of ECO PHX."
+  },
+  {
+    name: "State 48 Brewery",
+    cuisine: "Brewery / American",
+    address: "345 W Van Buren St, Phoenix, AZ 85003",
+    description: "Full service restaurant and brewery in the arts and entertainment district."
+  },
+  {
+    name: "Arizona Wilderness DTPHX",
+    cuisine: "Brewery / American",
+    address: "201 E Roosevelt St, Phoenix, AZ 85004",
+    description: "Artisanal beers inspired by Arizona with a beer garden in Roosevelt Row."
+  },
+  {
+    name: "Buqui Bichi Brewing",
+    cuisine: "Brewery / Mexican",
+    address: "21 W Van Buren St #61, Phoenix, AZ 85003",
+    description: "Brewery from Hermosillo, Sonora with craft beer from Hazy IPA to Coffee Stout, plus burgers, tacos, and appetizers."
+  },
+  {
+    name: "Formation Brewing",
+    cuisine: "Brewery",
+    address: "925 N 5th St, Phoenix, AZ 85004",
+    description: "Denver-based brewery with a multi-level space, patio, and conversation pit in Roosevelt Row."
+  },
+  {
+    name: "Gracie's Tax Bar",
+    cuisine: "Bar / American",
+    address: "711 N 7th Ave, Phoenix, AZ 85007",
+    description: "Elevated dive bar with jukebox, board games, and finger foods in a former tax office."
+  },
+  {
+    name: "Dialog",
+    cuisine: "Cafe / Coffee",
+    address: "1001 N Central Ave, Phoenix, AZ 85004",
+    description: "Coffee bar and market combining specialty coffee with curated home goods and furniture."
+  },
+  {
+    name: "Malegria Cafe",
+    cuisine: "Cafe / Latin",
+    address: "1031 Grand Ave, Phoenix, AZ 85007",
+    description: "Authentic Latin drinks, sweets, and small bites on a backyard patio."
+  },
+  {
+    name: "Cobra Arcade Bar",
+    cuisine: "Bar / Entertainment",
+    address: "801 N 2nd St, Phoenix, AZ 85004",
+    description: "Retro arcade bar with classic games, craft cocktails, and a lively Roosevelt Row atmosphere."
+  },
+  {
+    name: "Luckys Indoor Outdoor",
+    cuisine: "Bar / American",
+    address: "817 N 2nd St, Phoenix, AZ 85004",
+    description: "Locally-owned indoor-outdoor bar with food and drinks in Roosevelt Row."
+  },
+  {
+    name: "Crescent Ballroom",
+    cuisine: "Bar / Music Venue",
+    address: "308 N 2nd Ave, Phoenix, AZ 85003",
+    description: "Music venue and cocktail bar with food service in the heart of downtown."
+  },
+  {
+    name: "Phoenix Bourbon Room",
+    cuisine: "American / Whiskey Bar",
+    address: "50 W Jefferson St, Phoenix, AZ 85003",
+    description: "Premium whiskey bar and restaurant with in-house smoked meats."
+  },
+  {
+    name: "El Zaguan Bistro",
+    cuisine: "Mexican",
+    address: "16 W Adams St, Phoenix, AZ 85003",
+    description: "Family-owned casual Mexican restaurant bringing the tastes of Mexico to Downtown Phoenix."
+  },
+  {
+    name: "1130 The Restaurant",
+    cuisine: "American / Brunch",
+    address: "455 N 3rd St, Phoenix, AZ 85004",
+    description: "Restaurant at Arizona Center offering brunch on Saturdays and Sundays."
+  },
+  {
+    name: "Grassrootz Bookstore and Juice Bar",
+    cuisine: "Juice Bar / Cafe",
+    address: "1145 E Washington St, Phoenix, AZ 85034",
+    description: "Books by Black authors paired with a juice bar and coworking space, featured on Oprah Daily."
+  },
+  {
+    name: "CoffeeDrunk",
+    cuisine: "Cafe / Coffee",
+    address: "515 E Grant St, Phoenix, AZ 85004",
+    description: "Voted Best Coffee Shop in Long Beach, CA — now in DTPHX in the Lawrence Building south of Chase Field."
   }
 ];
